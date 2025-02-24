@@ -12,7 +12,7 @@ body {
 /* blue  background-color:rgb(32, 109, 134);  style='background-image: url("templates/static/images/bg1.jpeg");' */
 header {
     font-family: Arial, sans-serif;
-    background-image: url('templates/static/images/bg1.jpeg');
+    background-image: url('./templates/static/images/bg1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(80%);
@@ -91,7 +91,7 @@ section {
       padding: 50px;
       background-color:rgb(13, 13, 13);
       
-      background-image: url('templates/static/images/bgs2.png');
+      background-image: url('./templates/static/images/bgs2.png');
       background-size: cover;
       background-repeat: no-repeat;
   }
@@ -104,7 +104,7 @@ section {
     border-radius: 5px;
     border: solid;
     border-color:gray; 
-    background-image: url('templates/static/images/bg2.jpeg');
+    background-image: url('./templates/static/images/bg2.jpeg');
       background-size: cover;
       background-repeat: no-repeat; 
       filter: brightness(78%); 
