@@ -1,0 +1,211 @@
+/* styles.css   */
+
+body {
+   
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+/* blue  background-color:rgb(32, 109, 134);  style='background-image: url("templates/static/images/bg1.jpeg");' */
+header {
+    font-family: Arial, sans-serif;
+    background-image: url('templates/static/images/bg1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(16, 16, 16);
+    color: rgb(249, 60, 2);
+    padding: 10px 20px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+   
+   
+}
+
+.header-left h1 {
+    margin: 0;
+    font-weight: bolder;
+}
+
+.header-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-right li {
+    margin-left: 20px;
+}
+
+.header-right a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.middle_section{
+    font-family: Arial, sans-serif;
+    position: relative;
+    top: 60px;
+    color: white;
+    
+}
+
+#skills .skills-category,.card {
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+.skills-category{
+    font-family: Arial, sans-serif;
+    min-width: 200px;
+    border-width: 25px;
+ 
+
+}
+
+#skills-section{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+}
+
+section {
+    font-family: Arial, sans-serif;
+    position: relative;
+      padding: 50px;
+      background-color:rgb(13, 13, 13);
+      
+      background-image: url('templates/static/images/bgs2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+.card , .skills-category{
+    font-family: Arial, sans-serif;
+    background-color:rgb(21, 21, 21);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: solid;
+    border-color:gray; 
+    background-image: url('templates/static/images/bg2.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat; 
+      filter: brightness(78%); 
+}
+
+.skills-category1{
+
+    background-color:rgb(21, 21, 21);
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: solid;
+    border-color:gray; 
+      background-size: cover;
+      background-repeat: no-repeat; 
+      filter: brightness(78%); 
+}
+.project-card {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+
+    background-color:rgb(21, 21, 21);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: solid;
+    border-color:gray; 
+}
+
+.project-card img {
+    max-width: 250px;
+    margin-right: 20px;
+    height: 150px;
+}
+
+.project-description {
+    flex: 1;
+}
+
+
+.certificates_card{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: solid;
+    border-color:gray; 
+    
+}
+
+.certificate_div{
+    flex: 1;
+  
+}
+
+.certificate_div img {
+    max-width: 450px;
+    margin-right: 20px;
+    height: 300px;
+    
+    
+}
+
+.img_div{
+    display: flex;
+    justify-content: center;
+}
+
+.resume{
+    padding-top: 20px;
+}
+
+.resume a, p{
+    font-family: Arial, sans-serif;
+    color: rgb(189, 185, 185);
+    line-height: 1.4;
+    word-spacing: 2px;
+   
+   
+}
+
+h2,h3{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color:rgb(249, 60, 2);
+
+}
+
+.tech a,.tech{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+
+

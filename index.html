@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Kotagiri Krishna</h1>
+            <div class="resume">
+              <a href="templates/static/images/Kotagiri_Krishna_Resume.pdf">Download Resume</a>
+            </div>
+        </div>
+        <nav class="header-right">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="mailto:kotagirikrishnaaj.com">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section  class="middle_section" id="about">
+        <h2>About Me</h2>
+        <p >"Hello, I recently pursued my Bachelor's of Technology in Computer Science and Engineeering with specialization in Artificial Intelligence and Machine Learning (AIML) from Narsimha Reddy Engineering College in Hyderabad.
+            I have dedicated my academic journey to mastering the field of Artificial Intelligence.
+        Through my coursework, projects,research and Internship I have gained valuable knowledge and practical experience in various AI domains including Machine Learning ,Deep Learning and Natural Language Processing.   
+         </p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="skills-category1">
+            <h3>Research Assistant (Aug 2024 – Present) - IIIT Hyderabad</h3>
+            <ul>
+                <li>Contributing to Wikipedia and it's sister projects (Wikisource, Wikicommons)</li>
+                <li>Developing a full-stack web application using Flask, Python, and Google Cloud which generates Wikipedia-compatible XML files using datasets.</li>
+                <li>Deployed a web scraping app on Google Cloud to scrape over 650,000 pages from a website and extract relevant data to store in buckets as CSV files.</li>
+                <li>Created Telugu and Hindi templates using Jinja2 for automating Wikipedia article generation.</li>
+            </ul>
+        </div>
+        <div class="skills-category1">
+            <h3>Machine Learning Intern (June 2023 – Sep 2023) - VisualAstro</h3>
+            <ul>
+                <li>Created 3D objects using the Three.js library and arranged them according to real-time data.</li>
+                <li>Fetched and handled data using FastAPI.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div id = "skills-section">
+        <div class="skills-category">
+            <h3 style="text-decoration: underline;">Technologies</h3>
+            <div class="tech" ><a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">MACHINE LEARNING</a></div>
+            <div class="tech"><a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">DEEP LEARNING</a></div>
+            <div class="tech"><a href="https://en.wikipedia.org/wiki/Natural_language_processing" target="_blank">NATURAL LANGUAGE PROCESSING</a></div>
+    
+            <!-- Add more cards as needed -->
+        </div>
+        <div class="skills-category">
+            <h3 style="text-decoration: underline;">Languages</h3>
+            <div class="tech">PYTHON PROGRAMMING</div>
+            <div class="tech" >HTML | CSS </div>
+            <!-- Add more cards as needed -->
+        </div>
+        <div class="skills-category">
+            <h3 style="text-decoration: underline;">Other Tools</h3>
+            <div class="tech">GOOGLE ClOUD</div>
+            <div class="tech">MYSQL</div>
+            <div class="tech">GIT | GITHUB</div>
+            <!-- Add more cards as needed -->
+        </div>
+        <div class="skills-category">
+            <h3 style="text-decoration: underline;">Frameworks</h3>
+            <div class="tech">MATPLOTLIB | SEABORN</div>
+            <div class="tech">SCIKIT-LEARN | SCIPY</div>
+            <div class="tech">TENSORFLOW | KERAS</div>
+            <div class="tech">FLASK </div>
+            <!-- Add more cards as needed -->
+        </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <a href="https://github.com/KotagiriKrishna/Sentiment-Analysis-and-Movie-Recommendations" target="_blank"><img src="templates/static/images/movie_recommendation.png" alt="Project 1"></a>
+            <div class="project-description">
+                <h3><a href="https://github.com/KotagiriKrishna/Sentiment-Analysis-and-Movie-Recommendations" target="_blank" style="color: white;">SENTIMENT ANALYSIS AND MOVIE RECOMMENDATION SYSTEM</a></h3>
+                <p>Movie Recommendation system built using cosine similarity and integrated with Flask provides personalized movie suggestions to users. By leveraging cosine similarity, it measures the similarity between users preferences and movie features enabling
+                    accurate recommendations by using the user reviews like whether the movie gets the positive or negative review based on this the recommendation system will be more accurate and interactive
+                    The integration of Flaskensures seamless interaction and enhances the overall user experience.
+                </p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="https://github.com/KotagiriKrishna/Email_classifier" target="_blank"><img src="templates/static/images/spam.png" alt="Project 1"></a>
+            <div class="project-description">
+                <h3><a href="https://github.com/KotagiriKrishna/Email_classifier" target="_blank" style="color: white;">SPAM CLASSIFICATION</h3></a>
+                <p>Spam classification utilizes different models like Support Vector Machine(SVM), Naive Bayes, Decision Tree and Random Forest. These models are integrated with streamlit, a web framework for creating interaactive user interfaces the system allows users
+                     to input text data such as email or messages and predicts whether it is spam or not by using the combined predictions from the above models. </p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="https://github.com/KotagiriKrishna/Face-Mask-Detection" target="_blank"><img src="templates/static/images/facemask.jpeg" alt="Project 1"></a>
+            <div class="project-description">
+                <h3><a href="https://github.com/KotagiriKrishna/Face-Mask-Detection" target="_blank" style="color: white;">Face Mask Detection</h3></a>
+                <p>Face Mask Detection uses Deep Learning to detect whether the given input image with mask or without mask. I have used Convolutional Neural Network (CNN) is a type of ANN used for dealing with images and videos detection tasks. </p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="templates/static/images/face emotion.png" alt="Project 1">
+            <div class="project-description">
+                <h3>Face Emotion Detection</h3>
+                <p>Face Emotion Detection uses Deep Learning to classify the emotion like Happy, Sad, Angry, Fear or Afraid of the given input image. I have used Convolutional Neural Network (CNN) is a type of ANN used for dealing with images and videos detection tasks. </p>
+            </div>
+        </div>
+        <!-- Add more project cards as needed -->
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="certificates_card">
+            <div class="certificate_div">
+                <h3>IBM Machine Learning</h3>
+                <div class="img_div">
+                <img src="templates/static/images/IBM_ML.png">
+                </div>
+            </div>   
+        </div>
+
+        <div class="certificates_card">
+            <div class="certificate_div">
+                <h3>IBM MySQL</h3>
+                <div class="img_div">
+                <img src="templates/static/images/IBM_MySQL.png">
+                </div>
+            </div>   
+        </div>
+
+        <div class="certificates_card">
+            <div class="certificate_div">
+                <h3> Hacker RankProblem Solving</h3>
+                <div class="img_div">
+                <img src="templates/static/images/Hackerrank_medium.png">
+                </div>
+            </div>
+            
+        </div>
+        <div class="certificates_card">
+            <div class="certificate_div">
+                <h3> Hacker RankProblem Solving</h3>
+                <div class="img_div">
+                <img src="templates/static/images/Hackerrank.png">
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
